@@ -2,9 +2,12 @@ body {
     background-image: url("bg.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position:center;
+    background-position: center;
     background-size: cover;
+
+
 }
+
 
 h1 {
     color: black;
@@ -14,14 +17,13 @@ h1 {
 
 
     background: linear-gradient(to right, skyblue, transparent);
-    ;
     background-repeat: no-repeat;
     background-attachment: fixed;
 
 }
 
 p {
-    color: limegreen;
+    color: black;
     font-family: "consolas", sans-serif;
     font-style: italic;
     font-weight: bold;
@@ -33,6 +35,27 @@ p {
     background: linear-gradient(to left, skyblue, transparent);
     background-repeat: no-repeat;
     background-attachment: fixed;
+}
 
 
+a {
+    font-family: "press Start 2P";
+    font-size: 25px;
+}
+
+a:link {
+    color: lawngreen;
+
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: tomato;
+}
+
+a:active {
+    color: skyblue;
 }
