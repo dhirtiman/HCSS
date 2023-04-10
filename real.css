@@ -1,0 +1,19 @@
+body {
+ background-color: #324250;
+}
+
+* {
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "press Start 2P", "consolas" ;
+}
+
+.title {
+    flex: auto;
+    border: 1px solid;
+    position: relative;
+    top: 3rem;
+    border-right: 10px;
+    margin-bottom: 3rem;
+
+}
