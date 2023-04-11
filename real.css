@@ -1,19 +1,44 @@
 body {
- background-color: #324250;
+    background-color: #324250;
+    background-image: url("bg1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
 }
 
 * {
     padding: 0;
     box-sizing: border-box;
-    font-family: "press Start 2P", "consolas" ;
+
 }
 
 .title {
-    flex: auto;
-    border: 1px solid;
-    position: relative;
-    top: 3rem;
-    border-right: 10px;
-    margin-bottom: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+}
 
+.greet {
+
+    background-color: rgba(255, 255, 255, 0.473);
+    width: 100%;
+    max-width: 375px;
+
+    max-width: 375px;
+    min-width: 400px;
+    display: flex;
+    justify-content: center;
+    border-radius: 1.5rem;
+    padding: 1rem;
+    overflow: hidden;
+    box-shadow:  0px 0px 10px rgba(255, 255, 255, 0.548);
+
+    font-size: 115%;
+    color: rgb(0, 0, 0);
+    font-family: "consolas";
+
+    font-weight:1000;
 }
