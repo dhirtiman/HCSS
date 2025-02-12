@@ -16,7 +16,7 @@ click.addEventListener('click', () => {
 })
 
 clear.addEventListener('click', () => {
-    text_out.innerHTML = "";
+    text_out.innerHTML = "0";
     text = 0;
 })
 
